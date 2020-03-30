@@ -85,12 +85,7 @@ function teste6(x,y,z) {
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
-```
-> teste6()
-false
-> teste6(2)
-2
-> teste6(2,3)
-5
-> teste6(2,3,4)
-1.25
+teste6() //false
+teste6(2) //2
+teste6(2,3) //5
+teste6(2,3,4) //1.25
