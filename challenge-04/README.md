@@ -16,6 +16,16 @@ var isTruthy = function(teste) {
 	return teste
 }
 
+//Outra solução:
+var isTruthy = function(teste) {
+	return teste ? true : false
+}
+
+//Outra solução:
+var isTruthy = function(teste) {
+	return !!teste
+}
+
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
 isTruthy(0) //NaN, false, -0, '', ""
 
@@ -39,7 +49,7 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 var carro = {
 	marca: 'Audi',
 	modelo: 'A3',
-	placa: 'ABC-123',
+	placa: 'ABC-1234',
 	ano: 2015,
 	cor: 'Branco',
 	quantasPortas: 2,
@@ -82,7 +92,7 @@ Crie um método chamado `obterMarcaModelo`, que retorne:
 Para retornar os valores de marca e modelo, utilize os métodos criados.
 */
 carro.obterMarcaModelo = function() {
-	return "Esse carro é um " + carro.obterMarca() + carro.obterModelo()
+	return "Esse carro é um " + carro.obterMarca() + ' ' + carro.obterModelo()
 }
 
 /*
