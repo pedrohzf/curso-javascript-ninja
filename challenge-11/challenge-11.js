@@ -72,6 +72,7 @@ var numbers = []
 
 for (var i = 0; i <= 20; i++) {
 	if (i <= 10) {
+		//numbers.push(i)
 		numbers[i] = i
 	}
 }
@@ -91,6 +92,7 @@ for (var i = 0; i <= 20; i++) {
 	if (i % 2 === 1) {
 		continue	
 	} 
+	//number.push(i)
 	numbers[arr] = i
 	arr++
 }
