@@ -50,7 +50,7 @@ while(novoCounter < nomeSeparado.length){
 	nomeFinal += ' ' + nomeSeparado[novoCounter].charAt(0).toUpperCase() + nomeSeparado[novoCounter].slice(1)
 	novoCounter++
 }
-console.log(nomeFinal)
+console.log(nomeFinal.slice(1))
 
 /*
 var newFullName = fullName.split('-').map(function(name){
@@ -81,8 +81,7 @@ while(terceiroCounter < nomes.length){
 	}
 	terceiroCounter++
 }
-nomesAmigos.slice(2)
-console.log(nomesAmigos)
+console.log(nomesAmigos.slice(2))
 
 /*
 Usando o replace(), faça a string "Roberto" virar "Roberta".
